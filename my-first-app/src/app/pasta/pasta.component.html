@@ -1,0 +1,9 @@
+<p>pasta works! name: {{name}}</p>
+<div>
+<label >simple binding</label>
+<input type="text"
+(input)="onUpdateName($event)">
+<label >two way databinding</label>
+<input type="text" [(ngModel)]="name"
+>
+</div>

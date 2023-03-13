@@ -1,18 +1,20 @@
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
-import { ServerComponent } from './server/server/server.component';
-import { ListComponent } from './list/list.component';
+
+import { PastaComponent } from './pasta/pasta.component';
+import { ArquivoComponent } from './arquivo/arquivo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ServerComponent,
-    ListComponent
+    PastaComponent,
+    ArquivoComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule ,FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
