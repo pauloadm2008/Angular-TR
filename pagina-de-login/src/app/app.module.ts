@@ -6,6 +6,8 @@ import { LoginContainerComponent } from './login/login-container/login-container
 import { LoginComponent } from './login/login.component';
 import { LoginTitleComponent } from './login/login-container/login-title/login-title.component';
 import { LoginInputComponent } from './components/login-input/login-input.component';
+import { ListaComponent } from './lista/lista.component';
+import { ItemComponent } from './item/item.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { LoginInputComponent } from './components/login-input/login-input.compon
     LoginContainerComponent,
     LoginComponent,
     LoginTitleComponent,
-    LoginInputComponent
+    LoginInputComponent,
+    ListaComponent,
+    ItemComponent
   ],
   imports: [
     BrowserModule
