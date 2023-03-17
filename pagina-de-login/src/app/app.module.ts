@@ -8,6 +8,7 @@ import { LoginTitleComponent } from './login/login-container/login-title/login-t
 import { LoginInputComponent } from './components/login-input/login-input.component';
 import { ListaComponent } from './lista/lista.component';
 import { ItemComponent } from './item/item.component';
+import { LoginFormularioComponent } from './login/login-container/login-formulario/login-formulario.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ItemComponent } from './item/item.component';
     LoginTitleComponent,
     LoginInputComponent,
     ListaComponent,
-    ItemComponent
+    ItemComponent,
+    LoginFormularioComponent
   ],
   imports: [
     BrowserModule
