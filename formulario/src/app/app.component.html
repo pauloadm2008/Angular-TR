@@ -66,29 +66,46 @@
           required
         >
         </app-input-box>
-
-        <div class="gender-inputs">
+        <div>
           <div class="gender-title">
             <h6>Gênero</h6>
           </div>
+          <div class="gender-inputs">
+            <app-radio-input
+              class="gender-input"
+              label="Feminino"
+              id="female"
+              name="gender"
+            >
+            </app-radio-input>
 
-          <app-radio-input class="gender-input" label="Feminino"  id="female" name="gender">
-          </app-radio-input>
+            <app-radio-input
+              class="gender-input"
+              label="Masculino"
+              id="female"
+              name="gender"
+            >
+            </app-radio-input>
 
-          <app-radio-input class="gender-input" label="Masculino" id="female" name="gender">
-          </app-radio-input>
+            <app-radio-input
+              class="gender-input"
+              label="Outros"
+              id="others"
+              name="gender"
+            >
+            </app-radio-input>
 
-          <app-radio-input  class="gender-input" label="Outros" id="others" name="gender">
-
-          </app-radio-input>
-
-          <app-radio-input class="gender-input" label="Prefiro não dizer" id="none" name="gender">
-          </app-radio-input>
-
-
+            <app-radio-input
+              class="gender-input"
+              label="Prefiro não dizer"
+              id="none"
+              name="gender"
+            >
+            </app-radio-input>
+          </div>
         </div>
       </div>
-     <!--
+      <!--
 
       <div class="gender-inputs">
           <div class="gender-input">
@@ -103,7 +120,7 @@
         </div>
       </div> -->
 
-       <div class="continue-button">
+      <div class="continue-button">
         <button><a href="#">Continuar</a></button>
       </div>
     </form>
