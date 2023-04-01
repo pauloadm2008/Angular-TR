@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 
 import { PastaComponent } from './pasta/pasta.component';
 import { ArquivoComponent } from './arquivo/arquivo.component';
+import { ComponenteabacaxiComponent } from './componenteabacaxi/componenteabacaxi.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PastaComponent,
-    ArquivoComponent
+    ArquivoComponent,
+    ComponenteabacaxiComponent
   ],
   imports: [
     BrowserModule ,FormsModule
