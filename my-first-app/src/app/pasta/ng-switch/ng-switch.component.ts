@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-ng-swich',
-  templateUrl: './ng-swich.component.html',
-  styleUrls: ['./ng-swich.component.css']
+  selector: 'app-ng-switch',
+  templateUrl: './ng-switch.component.html',
+  styleUrls: ['./ng-switch.component.css']
 })
-export class NgSwichComponent {
+export class NgSwitchComponent {
 aba: string = 'home';
 }

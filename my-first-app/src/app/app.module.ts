@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { PastaComponent } from './pasta/pasta.component';
 import { ArquivoComponent } from './arquivo/arquivo.component';
 import { ComponenteabacaxiComponent } from './componenteabacaxi/componenteabacaxi.component';
-import { NgSwichComponent } from './pasta/ng-swich/ng-swich.component';
+import { NgSwitchComponent } from './pasta/ng-switch/ng-switch.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,7 @@ import { NgSwichComponent } from './pasta/ng-swich/ng-swich.component';
     PastaComponent,
     ArquivoComponent,
     ComponenteabacaxiComponent,
-    NgSwichComponent
+    NgSwitchComponent
   ],
   imports: [
     BrowserModule ,FormsModule, 
