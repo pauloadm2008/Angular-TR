@@ -7,16 +7,18 @@ import { AppComponent } from './app.component';
 import { PastaComponent } from './pasta/pasta.component';
 import { ArquivoComponent } from './arquivo/arquivo.component';
 import { ComponenteabacaxiComponent } from './componenteabacaxi/componenteabacaxi.component';
+import { NgSwichComponent } from './pasta/ng-swich/ng-swich.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PastaComponent,
     ArquivoComponent,
-    ComponenteabacaxiComponent
+    ComponenteabacaxiComponent,
+    NgSwichComponent
   ],
   imports: [
-    BrowserModule ,FormsModule
+    BrowserModule ,FormsModule, 
   ],
   providers: [],
   bootstrap: [AppComponent]
